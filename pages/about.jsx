@@ -26,49 +26,18 @@ import hillary from "@/team/hillary.jpeg";
 import reeti from "@/team/reeti.png";
 
 const team = [
-  { name: "Melody Yu", role: "head organizer", image: melody },
-  { name: "Crystal Yang", role: "head organizer", image: crystal },
+  { name: "Reeti Rout", role: "head organizer", image: reeti },
+  { name: "Hillary Yang", role: "head organizer", image: hillary }
 ];
 
 const problem_testers = [
-  {
-    name: "Ryan Chou",
-    role: "problem tester",
-    image: ryan,
-    link: "https://www.ryanchou.dev",
-  },
-  {
-    name: "Amy Sun",
-    role: "problem tester",
-    image: amys,
-  },
 ];
 
 const problem_writers = [
   {
-    name: "Jenna Lee",
-    role: "organizer",
-    image: jenna,
-  },
-  {
-    name: "Nino (Nintsi) Chkhaidze",
-    role: "organizer",
-    image: nino,
-  },
-  {
-    name: "Trisha Sabadra",
-    role: "organizer",
-    image: trisha,
-  },
-  {
     name: "Cindy Yang",
     role: "organizer",
     image: cindy,
-  },
-  {
-    name: "Charlotte Li",
-    role: "organizer",
-    image: charlotte,
   },
   {
     name: "Haarika Pappu",
@@ -79,21 +48,12 @@ const problem_writers = [
     name: "Hamsika Pappu",
     role: "organizer",
     image: hamsika,
-  },
-  {
-    name: "Hillary Yang",
-    role: "organizer",
-    image: hillary,
-  },
-  
-  {
-    name: "Reeti Rout",
-    role: "organizer",
-    image: reeti,
-  },
+  }
 ];
 
 const past_team = [
+  { name: "Melody Yu", role: "head organizer", image: melody },
+  { name: "Crystal Yang", role: "head organizer", image: crystal },
   { name: "Maggie Liu", role: "organizer", image: maggie },
   { name: "Amy Chang", role: "organizer", image: amy },
   { name: "Kelly Zhou", role: "organizer", image: kelly },
@@ -101,7 +61,13 @@ const past_team = [
   { name: "Tarushii Goel", role: "organizer", image: tarushii },
   { name: "Juheon Rhee", role: "organizer", image: juheon },
   { name: "Maria Chrysafis", role: "organizer", image: logo },
+  { name: "Jenna Lee", role: "organizer", image: jenna },
+  { name: "Nino (Nintsi) Chkhaidze", role: "organizer", image: nino },
+  { name: "Trisha Sabadra", role: "organizer", image: trisha },
+  { name: "Charlotte Li", role: "organizer", image: charlotte },
   { name: "Claire Zhang", role: "problem tester", image: claire },
+  { name: "Ryan Chou", role: "problem tester", image: ryan, link: "https://www.ryanchou.dev"},
+  { name: "Amy Sun", role: "problem tester", image: amys }
 ];
 
 const About = () => {
