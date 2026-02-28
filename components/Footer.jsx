@@ -4,19 +4,14 @@ import {
   REGISTRATION_LINK,
 } from "@/utils/constants";
 import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className={"bg-gray-900 text-white py-16 relative"}>
-      <div
-        className={
-          "w-full max-w-5xl px-8 sm:px-16 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-x-4 gap-y-8"
-        }
-      >
+      <div className={"w-full max-w-5xl px-8 sm:px-16 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-x-4 gap-y-8"}>
         <div>
           <h3 className={"font-bold text-xl"}>
-            <Link href="/">
-              <a>Algirlithm</a>
-            </Link>
+            <Link href="/">Algirlithm</Link>
           </h3>
         </div>
         <div className={"space-y-8"}>
@@ -49,7 +44,7 @@ const Footer = () => {
           <div className={"space-y-2"}>
             <h3 className={"font-bold mb-4"}>Discord Server</h3>
             <div>
-              <a className={"footer-link"} href={DISCORD_LINK} target="_blank" rel="noreferrer"> 
+              <a className={"footer-link"} href={DISCORD_LINK} target="_blank" rel="noreferrer">
                 discord.gg/bqRBv3CfQr
               </a>
             </div>
@@ -57,26 +52,10 @@ const Footer = () => {
         </div>
         <div className={"space-y-2"}>
           <h3 className={"font-bold mb-4"}>Quick Links</h3>
-          <div>
-            <Link href="/results">
-              <a className={"footer-link"}>results</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/logistics">
-              <a className={"footer-link"}>logistics</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/faq">
-              <a className={"footer-link"}>faq</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/about">
-              <a className={"footer-link"}>about</a>
-            </Link>
-          </div>
+          <div><Link href="/results" className={"footer-link"}>results</Link></div>
+          <div><Link href="/logistics" className={"footer-link"}>logistics</Link></div>
+          <div><Link href="/faq" className={"footer-link"}>faq</Link></div>
+          <div><Link href="/about" className={"footer-link"}>about</Link></div>
         </div>
       </div>
     </footer>
