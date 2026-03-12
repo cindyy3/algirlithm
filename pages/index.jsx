@@ -150,7 +150,7 @@ const Home = () => {
               {/*saturaday*/}
               <div className={"flex flex-col"}>
                 <h2 className={"text-3xl font-medium my-4 text-white"}>
-                  Saturday 4/6
+                  Saturday 4/4
                 </h2>
                 <Schedule time={"3:00PM ET"} event={"Opening Ceremony"} />
                 <Schedule time={"4:00PM - 6:00PM ET"} event={"Contest"} />
