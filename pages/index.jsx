@@ -32,7 +32,7 @@ const Home = () => {
         >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
-              March 28, 2026
+              April 4, 2026
             </h2>
             <h1
               className={
